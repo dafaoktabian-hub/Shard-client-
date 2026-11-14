@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "shardclient",
+  "version": "${version}",
+  "name": "Shard Client",
+  "description": "Custom Fabric client by Shard",
+  "authors": ["Shard"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.shardclient.ShardClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
